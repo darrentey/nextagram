@@ -39,21 +39,21 @@ class SignUp extends React.Component {
     });
 
     console.log(this.state);
-    Axios({
-      method: "post",
-      url: "https://insta.nextacademy.com/api/v1/users/new",
-      data: {
-        email: this.state.email,
-        password: this.state.password,
-        username: this.state.username
-      }
-    })
-      .then(resp => {
-        console.log(resp);
-      })
-      .catch(err => {
-        console.log(err);
-      });
+    // Axios({
+    //   method: "post",
+    //   url: "https://insta.nextacademy.com/api/v1/users/new",
+    //   data: {
+    //     email: this.state.email,
+    //     password: this.state.password,
+    //     username: this.state.username
+    //   }
+    // })
+    //   .then(resp => {
+    //     console.log(resp);
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   });
   };
 
   render() {

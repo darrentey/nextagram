@@ -27,21 +27,21 @@ class ModalLogin extends React.Component {
       password: "",
       isLoading: true
     });
-    console.log(this.state);
-    Axios({
-      method: "post",
-      url: "https://insta.nextacademy.com/api/v1/login",
-      data: {
-        email: "",
-        password: ""
-      }
-    })
-      .then(resp => {
-        console.log(resp);
-      })
-      .catch(err => {
-        console.log(err);
-      });
+    // console.log(this.state);
+    // Axios({
+    //   method: "post",
+    //   url: "https://insta.nextacademy.com/api/v1/login",
+    //   data: {
+    //     email: "",
+    //     password: ""
+    //   }
+    // })
+    //   .then(resp => {
+    //     console.log(resp);
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   });
   };
 
   signupToggle = () => {
